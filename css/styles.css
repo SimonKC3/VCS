@@ -1282,6 +1282,9 @@ progress {
     flex: 0 0 auto;
     width: 33.33333333%;
   }
+  .card-title:hover {
+  color: #48cae4; /* or any color you want */
+    }
   .col-lg-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
@@ -3213,6 +3216,14 @@ textarea.form-control-lg {
 .dropdown-toggle:empty::after {
   margin-left: 0;
 }
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
 
 .dropdown-menu {
   --bs-dropdown-zindex: 1000;
